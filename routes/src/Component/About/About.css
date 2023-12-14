@@ -1,0 +1,10 @@
+.box1 {
+    /* display: flex; */
+    padding: 100px;
+}
+.marg{
+    margin: 7px;
+}
+.card{
+    margin: 12px;
+}

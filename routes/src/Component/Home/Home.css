@@ -1,0 +1,140 @@
+.home {
+    min-height: 100vh;
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, #f8f4f0, #fff 75%);
+}
+
+.valign {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.sub-title {
+    color: var(--orange);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.icon-img {
+    width: 30px;
+    margin-right: 10px;
+    position: relative;
+    top: -4px;
+    display: inline-block;
+}
+
+.fw-800 {
+    margin-bottom: 10px;
+    font-weight: 700;
+    line-height: 1.6;
+    font-size: 55px;
+    color: var(--black-111);
+}
+
+.fz-20 {
+    font-size: 20px;
+    color: var(--gray);
+    font-weight: 300;
+    line-height: 2;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.butn {
+    padding-right: 10px;
+    background-color: var(--black-111);
+    border: 1px solid var(--black-111);
+    color: var(--white);
+    border-radius: 30px;
+    padding: 0 25px;
+    min-height: 50px;
+    line-height: 50px;
+    min-width: 130px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.paddi {
+    padding-right: 10px;
+}
+
+.home .valign {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.butn-under {
+    position: relative;
+    padding-bottom: 5px;
+    text-align: center;
+    overflow: hidden;
+    margin-left: 30px;
+}
+
+.main-color {
+    font-size: 13px;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+    color: var(--orange);
+}
+
+.underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: var(--orange);
+}
+
+.img img {
+    position: relative;
+    max-width: 500px;
+    margin: 0 auto -50px;
+}
+.pt-80{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.item-flex{
+    padding: 30px 20px;
+    border-radius: 100px;
+    border: 1px dashed #ddd;
+    display: flex;
+}
+.icon-imag{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #f7f7f7;
+    margin-right: 20px;
+    position: relative;
+}
+.iconim{
+    width: 30px;
+}
+.mb-5{
+    margin-bottom: 5px;
+}
+.item-flex .icon-imag{
+    display: block;
+}
